@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lesson 10 Final</title>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h2 class="title">Create Your Own Pizza</h2>
+
+        <div class="createOrder">
+            <h3>Available Crusts</h3>
+            <p>Original</p>
+            <p>Thin Crust</p>
+            
+            <h3>Available Sauces</h3>
+            <p>Classic Tomato</p>
+            <p>Spicy Marinara</p>
+            <p>White Garlic Sauce</p>
+        
+            <h3>Available Toppings</h3>
+            <p>Chicken</p>
+            <p>Pepperoni</p>
+            <p>Cheese</p>
+            <p>Mushrooms</p>
+            <p>Baby Spinach</p>
+            <p>Olives</p>
+        </div><br>
+
+        <div>
+            <form><br>
+                <label for="crust">Choose Your Crust: </label>
+                <input type="text" id="crust"><br>
+
+                <label for="sauce">Choose Your Sauce: </label>
+                <input type="text" id="sauce"><br>
+
+                <label for="top1">Topping 1: </label>
+                <input type="text" id="top1">
+
+                <label for="top2">Topping 2: </label>
+                <input type="text" id="top2">
+
+                <label for="top3">Topping 3: </label>
+                <input type="text" id="top3"><br><br>
+
+                <button id="btn" type="sumbit">Create Order</button><br><br>
+           </form>
+        </div><br>
+
+        <div id="order">
+            <p>Completed Pizza Order: </p>
+            <div id="pizzaOrder"></div>
+            <div id="toppings"></div><br>
+
+            <p>Sales Total: </p>
+            <div id="total">$</div><br>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
